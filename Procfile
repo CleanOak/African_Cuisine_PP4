@@ -1,1 +1,1 @@
-web:gunicorn african_cuisine.wsgi 
+web: gunicorn african_cuisine.wsgi 
