@@ -31,7 +31,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     '8000-cleanoak-africancuisine-d2h07elhh7k.ws-eu111.gitpod.io',
-    '.herokuapp.com'
+    '.herokuapp.com',
     ]
 
 
