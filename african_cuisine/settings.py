@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-t1nmqoy0knqd3e_v$ifbnma04r#=yikmpp_@@-r$48c(vx@njb
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-cleanoak-africancuisine-d2h07elhh7k.ws-eu111.gitpod.io',
+    '8000-cleanoak-africancuisine-d2h07elhh7k.ws-eu114.gitpod.io',
     '.herokuapp.com',
     ]
 
