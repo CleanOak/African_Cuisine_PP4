@@ -16,8 +16,6 @@ class Cuisine(models.Model):
     unique=True)
     slug = models.SlugField(max_length=200,
     unique=True)
-    # category = models.ForeignKey(FoodCategory, on_delete=models.CASCADE,
-    # related_name='food_category')
     author = models.ForeignKey(User, on_delete=models.CASCADE,
     related_name="recipe_posts")
     description = models.TextField(blank=True)
