@@ -4,6 +4,7 @@ from django.views import generic
 from .models import Cuisine
 
 # Create your views here.
-def my_cuisine(request):
-    return HttpResponse("Hello Cuisine")
+def cuisine_list(request):
+    cuisines = Cuisine.objects.all()
+    return render(request, 'cuisines/cuisine_list', {'cuisines':cuisines})
     
