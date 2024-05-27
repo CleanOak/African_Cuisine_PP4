@@ -20,5 +20,5 @@ from cuisine.views import cuisine_list
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('cuisine/', cuisine_list, name='cuisine'),
+    path('cuisine/',cuisine_list, name='cuisine'),
 ]

@@ -6,3 +6,5 @@ admin.site.register(Cuisine)
 # admin.site.register(Ingredients)
 # admin.site.register(Comment)
 # admin.site.register(FoodCategory)
+
+
