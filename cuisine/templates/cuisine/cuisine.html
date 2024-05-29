@@ -12,12 +12,14 @@
 </head>
 <body>
     <h1>Recipes</h1>
-    <ul>
+   
         {% for cuisine in cuisines %}
-            <li><a href="#">{{ cuisine.title }}</a></li>
+        <a href="{% url cusine_details' %}">
+            <h2>{{ cuisine.title }}</h1>
             <p>{{ cuisine.description}}</p>
+        </a>
         {% endfor %}
-    </ul>
+  
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
