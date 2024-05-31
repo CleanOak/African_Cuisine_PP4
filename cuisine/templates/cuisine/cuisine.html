@@ -13,8 +13,8 @@
 <body>
     <h1>Recipes</h1>
    
-        {% for cuisine in cuisines %}
-        <a href="{% url cusine_details' %}">
+        {% for cuisine in cuisine_list %}
+        <a href="{% url 'cuisine_details' %}">
             <h2>{{ cuisine.title }}</h1>
             <p>{{ cuisine.description}}</p>
         </a>
