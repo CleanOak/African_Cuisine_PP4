@@ -7,16 +7,16 @@ from .models import Cuisine
 #     cuisines = Cuisine.objects.all()
 #     return render(request, 'cuisine/cuisine.html', {'cuisines': cuisines})
 
-class CuisineList(generic.ListView):
-    queryset = Cuisine.objects.all()
-    template_name = "cuisine/cuisine.html"
-    # paginate_by = 6
+# class CuisineList(generic.ListView):
+#     queryset = Cuisine.objects.all()
+#     template_name = "cuisine/cuisine.html"
+#     # paginate_by = 6
 
 
 def cuisine_details(request):
     queryset = Cuisine.objects.all()
     cuisine = get_object_or_404(queryset)
-    return render(request,'cuisine/cuisine_details.html',)
+    return render(request,'cuisine/cuisine_details.html', {'cuisine_list': queryset})
 
     
     

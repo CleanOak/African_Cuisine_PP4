@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-from cuisine.views import CuisineList
+from cuisine.views import cuisine_details
 
 
 
